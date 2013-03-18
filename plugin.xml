@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.1"?>
+<plugin>
+
+    <extension
+        point="org.eclipse.ui.views">
+        <category
+            name="Scertify"
+            id="com.tocea.scertify.eclipse.category"/>
+        <view
+            name="%MarkerStatsView.name"
+            icon="icons/listingView.gif"
+            category="com.tocea.scertify.eclipse.category"
+            class="com.tocea.scertify.eclipse.scertifycode.ui.stats.views.MarkerStatsView"
+            id="com.tocea.scertify.eclipse.scertifycode.ui.stats.views.MarkerStatsView"/>
+        <view
+            name="%GraphStatsView.name"
+            icon="icons/graphView.gif"
+            category="com.tocea.scertify.eclipse.category"
+            class="com.tocea.scertify.eclipse.scertifycode.ui.stats.views.GraphStatsView"
+            id="com.tocea.scertify.eclipse.scertifycode.ui.stats.views.GraphStatsView"/>
+    </extension>
+   
+</plugin>

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Scertify Code UI Views
+Bundle-SymbolicName: com.tocea.scertify.eclipse.scertifycode.ui.views;singleton:=true
+Bundle-Version: 1.10.1.qualifier
+Bundle-Localization: plugin
+Eclipse-BuddyPolicy: registered
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.tocea.scertify.eclipse.scertifycode.ui.Activator
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.views.properties.tabbed,
+ org.eclipse.core.expressions,
+ org.apache.commons.lang;bundle-version="2.1.0"
+Bundle-ClassPath: lib/jcommon-1.0.16.jar,
+ lib/jfreechart-1.0.14-swt.jar,
+ lib/jfreechart-1.0.14.jar,
+ .
+Export-Package: com.tocea.scertify.eclipse.scertifycode.ui,
+ com.tocea.scertify.eclipse.scertifycode.ui.api,
+ com.tocea.scertify.eclipse.scertifycode.ui.stats.views,
+ com.tocea.scertify.eclipse.scertifycode.ui.util

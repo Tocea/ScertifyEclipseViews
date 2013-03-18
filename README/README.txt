@@ -1,7 +1,5 @@
-ScertifyEclipseViews
-====================
-
-Views for the Scertify Eclipse plugin
+-------------------------------------
+Scertify Code Eclipse Plugin Views
 
 Licensed under LGPL v3 terms.
 -------------------------------------
@@ -40,4 +38,3 @@ Following modifications has been done from the original Checkstyle UI plugin:
  * Minor reworks of the marker stats view
  * API of the informations providers used to get data in the stats views
  * An implementation of the information providers that analyze all Eclipse problems.
-
