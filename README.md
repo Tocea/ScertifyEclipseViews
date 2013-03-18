@@ -1,9 +1,7 @@
 ScertifyEclipseViews
 ====================
 
-Views for the Scertify Eclipse plugin
-
-- Licensed under LGPL v3 terms -
+Views for the Scertify Eclipse plugin (Licensed under LGPL v3 terms)
 
 
 About Scertify Code

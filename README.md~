@@ -3,10 +3,11 @@ ScertifyEclipseViews
 
 Views for the Scertify Eclipse plugin
 
-Licensed under LGPL v3 terms.
--------------------------------------
+- Licensed under LGPL v3 terms -
 
-== About Scertify Code
+
+About Scertify Code
+---------------------
 
 Software Risk Control and Technical Debt Management are major challenges companies need to face in order to guarantee the reliability of business-critical applications and the agility of development processes. The measurement of code quality (documentation, conformance with programming best practices, code coverage, duplications) enables IT departments to detect, track and reduce the risk of expensive failures. However, the use of code quality tools still raises some questions, especially when considering their implementation:
 
@@ -21,11 +22,13 @@ Scertify Code, accessible within the development environment as well from Contin
 * Refine code analysis by supporting generic and custom frameworks, and facilitate the addition of company-specific control rules
 * Assist developers when correcting their code by providing them with detailed and contextualized solutions
 
-== About Scertify Code Eclipse Plugin
+About Scertify Code Eclipse Plugin
+-------------------------------------
 
 Scertify Code Eclipse provide, into a single Eclipse plugin, a multi-language (Java and JavaScript are currently supported) and extensible code quality analysis tool. Scertify Code Eclipse warn the developer about his coding pitfall and provide some automatic corrections to fix them directly in Eclipse. The core of Scertify Code integrates some specific and advanced rules (e.g., Hibernate) and other rules provided by the state-of-the-art static analysis tools (e.g., PMD, CheckStyle, JSLint etc.).
 
-== About Scertify Code Eclipse Plugin Views
+About Scertify Code Eclipse Plugin Views
+--------------------------------------------
 
 Provide some views for the Scertify  Code Eclipse plugin. 
 These views are based on CheckStyle Eclispe plugin (http://eclipse-cs.sourceforge.net/)
